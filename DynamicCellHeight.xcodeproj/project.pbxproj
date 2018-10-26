@@ -12,6 +12,7 @@
 		AC46116A2182CD3500B4B331 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC4611682182CD3500B4B331 /* Main.storyboard */; };
 		AC46116C2182CD3500B4B331 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC46116B2182CD3500B4B331 /* Assets.xcassets */; };
 		AC46116F2182CD3500B4B331 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC46116D2182CD3500B4B331 /* LaunchScreen.storyboard */; };
+		AC6D4BF52182CE3C00D79EB6 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6D4BF42182CE3C00D79EB6 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		AC46116B2182CD3500B4B331 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC46116E2182CD3500B4B331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC4611702182CD3500B4B331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC6D4BF42182CE3C00D79EB6 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewCell.swift; path = ../../DynamicRowHeight/DynamicRowHeight/TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				AC4611642182CD3500B4B331 /* AppDelegate.swift */,
 				AC4611662182CD3500B4B331 /* ViewController.swift */,
+				AC6D4BF42182CE3C00D79EB6 /* TableViewCell.swift */,
 				AC4611682182CD3500B4B331 /* Main.storyboard */,
 				AC46116B2182CD3500B4B331 /* Assets.xcassets */,
 				AC46116D2182CD3500B4B331 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC6D4BF52182CE3C00D79EB6 /* TableViewCell.swift in Sources */,
 				AC4611672182CD3500B4B331 /* ViewController.swift in Sources */,
 				AC4611652182CD3500B4B331 /* AppDelegate.swift in Sources */,
 			);
@@ -277,6 +281,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JTLB8FT52S;
 				INFOPLIST_FILE = DynamicCellHeight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.demoApps.DynamicCellHeight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JTLB8FT52S;
 				INFOPLIST_FILE = DynamicCellHeight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.demoApps.DynamicCellHeight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
